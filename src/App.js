@@ -60,11 +60,7 @@ class App extends Component {
         </header>
           <div className='calenderContainer'>
             <BigCalendar
-              height="100vh"
-              selectable
               events={this.state.events} 
-              defaultView='week'
-              defaultDate={new Date()}
             />
           </div>
       </div>
